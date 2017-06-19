@@ -6,6 +6,7 @@ body {
   font-family: Helvetica;
   color: seashell;
   opacity: 0.9;
+  text-align: center;
 }
 
 /*Header styling*/
@@ -25,11 +26,13 @@ header {
 }
 
 nav {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 nav li {
   display: inline-block;
+  margin: 0 5px;
+  font-weight: bold;
 }
 
 a {
@@ -45,27 +48,25 @@ a {
 .main {
   position: relative;
   top: 69px;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .container {
   display: flex;
-  margin: 0 auto;
   justify-content: center;
   align-items: center;
-  width: 1200px;
 }
 
-.content {
-
-}
-
-.mission {
+#mission {
   background-image: url("./../images/img-mission-background.jpg");
   background-size: cover;
-
   height: 700px;
 }
 
+#mission h2, h4 {
+  margin: 8px;
+}
 
 .banner {
   background-color: black;
@@ -76,7 +77,8 @@ a {
 /*Featured*/
 
 #featured {
-  margin: auto;
+  margin: 0 auto;
+  padding: 60px 0;
   width: 1000px;
   text-align: center;
 }
@@ -107,10 +109,20 @@ a {
 #locations {
   background-image: url("../images/img-locations-background.jpg");
   background-size: cover;
+  height: 500px;
+  padding-top: 70px;
+}
+
+.location {
+  background-color: black;
+  margin: 0 20px;
+  width: 300px;
+  opacity: 1;
 }
 
 #contact {
-  text-align: center;
+  height: 200px;
+  margin-bottom: 100px;
 }
 
 #contact a {
@@ -120,5 +132,9 @@ a {
 /*Footer*/
 
 footer {
+  display: block;
+  position: absolute;
+  text-align: left;
   margin-left: 20px;
+  font-weight: bold;
 }
