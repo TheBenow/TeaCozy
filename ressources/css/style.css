@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+
+/*Header styling*/
+
+header {
+  top: 0;
+  padding: 0 10px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+}
+
+nav {
+  padding: 0 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  color: seashell;
+}
+
+#logo {
+  height: 50px;
+}
+
+/*Genral styling*/
+
+.main {
+  position: relative;
+  top: 69px;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+.content {
+
+}
+
+.mission {
+  background-image: url("./../images/img-mission-background.jpg");
+  background-size: cover;
+
+  height: 700px;
+}
+
+
+.banner {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+}
+
+/*Featured*/
+
+#featured {
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  margin: 10px;
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.product h4 {
+  margin: 0;
+  text-align: center;
+}
+
+/*Locations*/
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+/*Footer*/
+
+footer {
+  margin-left: 20px;
+}
